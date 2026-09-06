@@ -34,7 +34,7 @@ export default function HeroSection() {
 						systems focused software engineer
 					</RoughNotation>{" "}
 					based in Toronto. I&apos;ve been{" "}
-					<RoughNotation type="underline" show={true} color="#3c9666" strokeWidth={1}>
+					<RoughNotation type="underline" show={true} color="#3c9666" iterations={2}>
 						programming for over six years
 					</RoughNotation>
 					, always chasing whatever problem catches my interest.
@@ -68,7 +68,7 @@ export default function HeroSection() {
 						</RoughNotation>
 					</span>
 					, with a quiet passion for{" "}
-					<RoughNotation type="highlight" show={true} color="#049d445f" multiline={true}>
+					<RoughNotation type="underline" show={true} color="#02933f" multiline={true} iterations={2}>
 						environmental engineering.
 					</RoughNotation>{" "}
 					Distributed systems and machine learning is where most of my curiosity lives. <CatToggleButton />
@@ -78,13 +78,17 @@ export default function HeroSection() {
 			<div className="fade-in-up" style={{ "--delay-index": 5 } as React.CSSProperties}>
 				<p>
 					Outside of programming, I love learning new things,{" "}
-					<RoughNotation type="highlight" show={true} color="#203992a3">
+					<RoughNotation type="highlight" show={true} color="#002cbcb2" multiline={true} iterations={2}>
 						reading books,
 					</RoughNotation>{" "}
-					<RoughNotation type="highlight" show={true} color="#8a6d18a3" multiline={true}>
+					<RoughNotation type="highlight" show={true} color="#8a6d18b2" multiline={true} iterations={2}>
 						messing around in the workshop
 					</RoughNotation>
-					, and exploring outside! Here&apos;s what I&apos;m currently up to:
+					, and{" "}
+					<RoughNotation type="highlight" show={true} color="#14802fb2" multiline={true} iterations={2}>
+						exploring outside!
+					</RoughNotation>{" "}
+					Here&apos;s what I&apos;m currently up to:
 				</p>
 			</div>
 
