@@ -12,7 +12,7 @@ export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
 	return (
 		<html lang="en">
 			<head></head>
-			<body className="relative 2xl:zoom-[1.1]">
+			<body className="relative font-sans 2xl:zoom-[1.1]">
 				<RootLayoutClient searchIndex={searchIndex}>{children}</RootLayoutClient>
 			</body>
 		</html>
