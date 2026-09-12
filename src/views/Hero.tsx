@@ -29,21 +29,21 @@ export default function HeroSection() {
 					<span className="text-stone-400 tabular-nums" suppressHydrationWarning>
 						{age} y/o
 					</span>{" "}
-					systems focused software engineer based in Toronto. I&apos;ve been programming for over six years, always chasing whatever problem catches
-					my interest.
+					software engineer based in Toronto. I like building things, following interesting questions, and learning just enough about a problem to
+					become obsessed with it.
 				</p>
 			</div>
 
 			<div className="fade-in-up" style={{ "--delay-index": 4 } as React.CSSProperties}>
 				<p>
-					My interests span low-level systems, security tooling, applied ML, and distributed systems, with a quiet passion for environmental
-					engineering. Distributed systems and machine learning is where most of my curiosity lives. <CatToggleButton />
+					My work tends to wander between systems, data, machine learning, with an abiding passion for environmental engineering and the occasional
+					problem I probably could have left alone, for better or worse. <CatToggleButton />
 				</p>
 			</div>
 
 			<div className="fade-in-up" style={{ "--delay-index": 5 } as React.CSSProperties}>
 				<p>
-					Outside of programming, I love learning new things, reading books, messing around in the workshop, and exploring outside! Here&apos;s what
+					Outside of programming, I&apos;m usually reading, lifting, working on something in the workshop, or just exploring outside. Here&apos;s what
 					I&apos;m currently up to:
 				</p>
 			</div>
