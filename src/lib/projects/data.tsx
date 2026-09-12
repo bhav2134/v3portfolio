@@ -48,50 +48,6 @@ export const projects: Project[] = [
 		]
 	},
 	{
-		name: "Verrere",
-		summary:
-			"A full stack web application that lets users discover books through an interactive, swipe-based interface, persist personal shelves, and filter preferences by genre.",
-		logo: {
-			src: "/images/projects/verrere.png",
-			width: 128,
-			height: 128
-		},
-		technologies: [Technology.NextJS, Technology.TypeScript, Technology.TailwindCSS, Technology.PostgreSQL, Technology.Prisma, Technology.GraphQL],
-		links: {
-			github: "https://github.com/bhavv04/verrere",
-			live: "https://verrere.vercel.app/"
-		},
-		hasCaseStudy: false,
-		screenshots: [
-			{
-				name: "verrere Landing Page",
-				mobile: { src: "/images/verrere/verrere1.png", width: 800, height: 640 },
-				desktop: { src: "/images/verrere/verrere1.png", width: 800, height: 640 }
-			},
-			{
-				name: "verrere Swipe Interface",
-				mobile: { src: "/images/verrere/verrere2.png", width: 800, height: 640 },
-				desktop: { src: "/images/verrere/verrere2.png", width: 800, height: 640 }
-			},
-			{
-				name: "verrere Shelf",
-				mobile: { src: "/images/verrere/verrere3.png", width: 800, height: 640 },
-				desktop: { src: "/images/verrere/verrere3.png", width: 800, height: 640 }
-			},
-			{
-				name: "verrere Genre Selection",
-				mobile: { src: "/images/verrere/verrere4.png", width: 800, height: 640 },
-				desktop: { src: "/images/verrere/verrere4.png", width: 800, height: 640 }
-			}
-		],
-		type: "bullets",
-		bullets: [
-			"Turns book discovery into a swipe-based deck instead of a search bar, giving instant physics-based feedback on every drag",
-			"Tracks every book a user has already seen so genre browsing never repeats a title, even across long sessions",
-			"Saves liked books to a persistent shelf and syncs it across devices, so a user's picks are never tied to a single browser"
-		]
-	},
-	{
 		name: "Groat",
 		summary:
 			"A self-hosted LLM proxy that cuts your API bill by routing requests to cheaper models and caching semantically-similar responses - a drop-in LLM-compatible endpoint with no code changes required.",
@@ -195,6 +151,50 @@ export const projects: Project[] = [
 			"Lets you ask your own machine questions in plain English instead of grepping through files, notes, and shell history by hand",
 			"Runs entirely on-device - indexing, embeddings, and answer generation all happen locally, so nothing about a user's files or history ever leaves the machine",
 			"Finds results by meaning rather than exact keywords, so a vague or loosely-worded question can still surface the right file or command from months ago"
+		]
+	},
+	{
+		name: "Verrere",
+		summary:
+			"A full stack web application that lets users discover books through an interactive, swipe-based interface, persist personal shelves, and filter preferences by genre.",
+		logo: {
+			src: "/images/projects/verrere.png",
+			width: 128,
+			height: 128
+		},
+		technologies: [Technology.NextJS, Technology.TypeScript, Technology.TailwindCSS, Technology.PostgreSQL, Technology.Prisma, Technology.GraphQL],
+		links: {
+			github: "https://github.com/bhavv04/verrere",
+			live: "https://verrere.vercel.app/"
+		},
+		hasCaseStudy: false,
+		screenshots: [
+			{
+				name: "verrere Landing Page",
+				mobile: { src: "/images/verrere/verrere1.png", width: 800, height: 640 },
+				desktop: { src: "/images/verrere/verrere1.png", width: 800, height: 640 }
+			},
+			{
+				name: "verrere Swipe Interface",
+				mobile: { src: "/images/verrere/verrere2.png", width: 800, height: 640 },
+				desktop: { src: "/images/verrere/verrere2.png", width: 800, height: 640 }
+			},
+			{
+				name: "verrere Shelf",
+				mobile: { src: "/images/verrere/verrere3.png", width: 800, height: 640 },
+				desktop: { src: "/images/verrere/verrere3.png", width: 800, height: 640 }
+			},
+			{
+				name: "verrere Genre Selection",
+				mobile: { src: "/images/verrere/verrere4.png", width: 800, height: 640 },
+				desktop: { src: "/images/verrere/verrere4.png", width: 800, height: 640 }
+			}
+		],
+		type: "bullets",
+		bullets: [
+			"Turns book discovery into a swipe-based deck instead of a search bar, giving instant physics-based feedback on every drag",
+			"Tracks every book a user has already seen so genre browsing never repeats a title, even across long sessions",
+			"Saves liked books to a persistent shelf and syncs it across devices, so a user's picks are never tied to a single browser"
 		]
 	}
 ];

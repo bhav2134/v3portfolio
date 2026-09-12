@@ -170,22 +170,6 @@ export const projects: Project[] = [
 		hasCaseStudy: false
 	},
 	{
-		id: "terraseed",
-		rank: 7,
-		slug: "terraseed",
-		title: "Terraseed",
-		tagline: "30 years of climate data, one planting score",
-		description: "Uses decades of climate data to predict the best planting windows for any crop, anywhere on Earth.",
-		tags: ["machine learning", "data engineering", "data visualization"],
-		tech: ["Python", "scikit-learn"],
-		status: "active",
-		year: 2025,
-		github: "https://github.com/bhavv04/terraseed",
-		image: "/images/projects/terraseed.png",
-		featured: true,
-		hasCaseStudy: false
-	},
-	{
 		id: "redis-c",
 		rank: 13,
 		slug: "redis-c",
